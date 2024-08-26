@@ -4,7 +4,7 @@ import Button from './component/Button';
 import Delete from './component/Delete';
 
 function App() {
-  const [todo, setTodo] = useState("mobile");
+  const [todo, setTodo] = useState("");
   const [todos, setTodos] = useState([]);
 
   const addTodo = () => {
